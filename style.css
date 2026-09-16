@@ -1,0 +1,26 @@
+body {
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+}
+.products-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.product-card {
+    padding: 25px;
+}
+.tag {
+    margin-bottom: 5px;
+}
+h2 {
+    margin: 5px 0;
+}
+p {
+    margin: 0 0 15px;
+}
+.product-card ul {
+    margin: 5px 0 15px;
+    padding: 0;
+}
