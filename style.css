@@ -1,35 +1,82 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
+    margin: 0;
+    padding-top: 220px;
     font-family: Montserrat, sans-serif;
     font-size: 13px;
     line-height: 18px;
-    background-image: url("./img/Фон 1.png");
+    background-image: url("./img/background.png");
     background-repeat: no-repeat;
-    
+    background-size: 790px 697px;
+    background-position: 85px 0;
+    color: #515076;
 }
-.products-list {
+
+h1 {
+    width: 846px;
+    font-size: 70px;
+    line-height: 78px;
+    font-weight: 400;
+    margin: 0 auto 110px;
+    color: #515076;
+}
+
+.products-cards {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     width: 1110px;
     justify-content: center;
+    gap: 45px;
 }
+
 .product-card {
     padding: 25px;
     width: 340px;
     box-sizing: border-box;
+    background-color: #F7F7FA;
+    border-radius: 10px;
 }
-.tag {
+
+.product-card__image {
+    margin-bottom: 30px;
+}
+
+.product-card__goal {
     margin-bottom: 5px;
+    font-size: 12px;
+    line-height: 24px;
+    color: #A5A3B9;
 }
-h2 {
+
+.product-card__title {
     margin: 5px 0;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 700;
 }
-p {
+
+.product-card__description {
     margin: 0 0 15px;
+    font-weight: 400;
 }
-.product-card ul {
-    margin: 5px 0 15px;
-    padding: 0;
+
+.product-card__ingredients {
+    padding-left: 20px;
+    margin: 0 0 25px;
+    list-style:circle;
+}
+
+.product-card__price {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
